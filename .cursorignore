@@ -1,0 +1,12 @@
+# Competition data must never be readable by the AI agent (Rules 2.4.b: Data Security)
+Data/
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.zip
+
+# Kevin's personal notebooks (may contain real data in cell outputs)
+notebooks/user_dev/
