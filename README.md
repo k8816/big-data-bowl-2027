@@ -15,7 +15,7 @@ Scaffold for Kevin Zhang’s BDB 2027 analysis (Combine → in-game get-off / pa
 
 ## Pass-rush aggregates (manual)
 
-Run `notebooks/cursor_dev/player_play_passrush_aggs.ipynb` after placing competition files under `Data/` (paths are parameterized at the top of the notebook).
+Run `notebooks/cursor_dev/player_play_passrush_aggs.ipynb` after placing competition files under `Data/` (paths are parameterized at the top of the notebook). Schema is **snake_case** (`game_id`, `time_to_pressure`, `player_get_off`, …).
 
 Writes:
 
