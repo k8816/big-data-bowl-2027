@@ -1,5 +1,6 @@
 # Competition data must never be readable by the AI agent (Rules 2.4.b: Data Security)
 Data/
+DerivedData/
 *.csv
 *.parquet
 *.feather

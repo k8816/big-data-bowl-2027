@@ -1,0 +1,22 @@
+# Competition raw data (Rules 2.4.b) — never commit
+Data/
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.zip
+
+# Derived aggregates Kevin builds locally (notebook writes CSVs here)
+DerivedData/
+
+# Local / editor
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+*.egg-info/
+.pytest_cache/
