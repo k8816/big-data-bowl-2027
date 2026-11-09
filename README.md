@@ -21,4 +21,12 @@ Writes (season only):
 
 - `DerivedData/player_play_passrush_by_season_player.csv`
 
+## Combine + players DL export (manual)
+
+Run `notebooks/cursor_dev/combine_players_dl_export.ipynb` after placing `Data/players.csv` and `Data/combine_results.csv`. Joins on `nfl_id`, filters `nfl_position` ∈ {DE, OLB, DT, NT}, renames `ngs_college_production_score` → `ngs_production_score`.
+
+Writes:
+
+- `DerivedData/combine_players_dl.csv`
+
 Do not paste raw competition CSV rows into AI chats. Do not commit `Data/` or `DerivedData/` CSVs.
