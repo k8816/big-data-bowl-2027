@@ -29,4 +29,8 @@ Writes:
 
 - `DerivedData/combine_players_dl.csv`
 
+## Forty histogram (manual)
+
+Run `notebooks/cursor_dev/forty_histogram.ipynb` after `DerivedData/combine_players_dl.csv` exists. Drops NaN `forty`, then plots a histogram. Left unexecuted in git.
+
 Do not paste raw competition CSV rows into AI chats. Do not commit `Data/` or `DerivedData/` CSVs.
