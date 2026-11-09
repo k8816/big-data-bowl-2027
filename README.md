@@ -15,11 +15,10 @@ Scaffold for Kevin Zhang’s BDB 2027 analysis (Combine → in-game get-off / pa
 
 ## Pass-rush aggregates (manual)
 
-Run `notebooks/cursor_dev/player_play_passrush_aggs.ipynb` after placing competition files under `Data/` (paths are parameterized at the top of the notebook). Schema is **snake_case** (`game_id`, `time_to_pressure`, `player_get_off`, …).
+Run `notebooks/cursor_dev/player_play_passrush_aggs.ipynb` after placing competition files under `Data/` (paths parameterized at top). Schema is **snake_case**. Filters `nfl_position` ∈ {DE, OLB, DT, NT}.
 
-Writes:
+Writes (season only):
 
-- `DerivedData/player_play_passrush_by_game_player.csv`
 - `DerivedData/player_play_passrush_by_season_player.csv`
 
 Do not paste raw competition CSV rows into AI chats. Do not commit `Data/` or `DerivedData/` CSVs.
