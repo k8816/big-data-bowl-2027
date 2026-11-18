@@ -11,3 +11,6 @@ DerivedData/
 
 # Kevin's personal notebooks (may contain real data in cell outputs)
 notebooks/user_dev/
+
+# Kevin's executed copies of agent notebooks — agents must never see outputs
+notebooks/cursor_user_run/

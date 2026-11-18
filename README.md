@@ -8,8 +8,9 @@ Scaffold for Kevin Zhang’s BDB 2027 analysis (Combine → in-game get-off / pa
 |------|---------|
 | `Data/` | Competition CSVs (local only; **git-ignored** + **Cursor-ignored**) |
 | `DerivedData/` | Notebook-built aggregate CSVs (local only; **git-ignored** + **Cursor-ignored**) |
-| `notebooks/cursor_dev/` | Shared, agent-readable notebooks (no raw CSV outputs committed) |
-| `notebooks/user_dev/` | Personal exploration (Cursor-ignored; may contain data in outputs) |
+| `notebooks/cursor_dev/` | Shared, agent-created notebooks (never run here; outputs always cleared via nbstripout) |
+| `notebooks/cursor_user_run/` | Kevin’s executed copies of `cursor_dev` notebooks (**git-ignored** + **Cursor-ignored**) |
+| `notebooks/user_dev/` | Kevin-only exploration (**git-ignored** + **Cursor-ignored**; may contain data in outputs) |
 | `src/` | Package code |
 | `outputs/` | Non-CSV artifacts |
 

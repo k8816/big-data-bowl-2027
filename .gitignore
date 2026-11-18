@@ -11,6 +11,13 @@ Data/
 # Derived aggregates Kevin builds locally (notebook writes CSVs here)
 DerivedData/
 
+# Kevin-only notebooks (may contain data in outputs). Already-tracked
+# user_dev files stay tracked until explicitly untracked; new ones stay local.
+notebooks/user_dev/
+
+# Kevin's executed copies of agent notebooks (outputs stay on laptop only)
+notebooks/cursor_user_run/
+
 # Local / editor
 .venv/
 venv/
