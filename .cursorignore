@@ -1,5 +1,6 @@
 # Competition data must never be readable by the AI agent (Rules 2.4.b: Data Security)
 Data/
+DerivedData/
 *.csv
 *.parquet
 *.feather
@@ -10,3 +11,9 @@ Data/
 
 # Kevin's personal notebooks (may contain real data in cell outputs)
 notebooks/user_dev/
+
+# Kevin's executed copies — agents must never see outputs (still git-tracked)
+notebooks/cursor_user_run/
+
+# Agent scratch folder — ignore for reading; agents can still write via tools
+notebooks/cursor_dev/
