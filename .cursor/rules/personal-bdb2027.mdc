@@ -1,0 +1,14 @@
+---
+description: Personal Big Data Bowl 2027 project conventions (Always Apply)
+alwaysApply: true
+---
+
+# Big Data Bowl 2027 (personal)
+
+This is Kevin Zhang’s personal NFL Big Data Bowl 2027 project.
+
+- Follow the README on `kevin_branch1` as the playbook.
+- Never push to `main`. Put every change on a new branch named `kevin_cursor_agent_branch_*`. PRs target base `kevin_branch1`.
+- Keep `Data/` and `DerivedData/` local and ignored (git + Cursor).
+- Agent scratch: `notebooks/cursor_dev/` (ignored). Keepers Kevin runs: `notebooks/cursor_user_run/` (tracked, Cursor-ignored). Kevin-only exploration: `notebooks/user_dev/`.
+- Never paste competition CSV rows into AI chats; never commit `Data/` or `DerivedData/` CSVs.
