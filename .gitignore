@@ -11,6 +11,9 @@ Data/
 # Derived aggregates Kevin builds locally (notebook writes CSVs here)
 DerivedData/
 
+# Competition description materials — local only
+CompetitionDescription/
+
 # Agent scratch notebooks — local only (Kevin copies keepers to cursor_user_run)
 notebooks/cursor_dev/
 

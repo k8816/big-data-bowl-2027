@@ -1,0 +1,30 @@
+---
+description: Personal Big Data Bowl 2027 project conventions (Always Apply)
+alwaysApply: true
+---
+
+# Personal Big Data Bowl 2027
+
+This is a **personal** project.
+
+## README
+
+Keep a `README.md` at the project root. Create it if missing; update it when setup, run, or usage steps change.
+
+## Branches & PRs
+
+- Follow the `kevin_branch1` README playbook.
+- Agents use `kevin_cursor_agent_branch_*` branches with PRs targeting `kevin_branch1`.
+- Never push to `main`.
+
+## Data layout
+
+- `Data/` and `DerivedData/` are local and gitignored.
+- Scratch notebooks go in `cursor_dev`.
+- Keepers go in `cursor_user_run`.
+- Exploration goes in `user_dev`.
+
+## Competition data
+
+- Never paste competition CSVs into AI chats.
+- Never commit those CSVs.

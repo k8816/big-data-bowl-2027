@@ -14,6 +14,3 @@ notebooks/user_dev/
 
 # Kevin's executed copies — agents must never see outputs (still git-tracked)
 notebooks/cursor_user_run/
-
-# Agent scratch folder — ignore for reading; agents can still write via tools
-notebooks/cursor_dev/
